@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Always include these in websites -->
+        <title> Ralph Babunga </title>
+        <meta name="description" content="Web site for Ralph Babunga">
+        <meta name="keywords" content="Ralph, Babunga, IUP, Indiana University of Pennsylvania">
+        <meta name="author" content="Ralph Babunga">
+        
+        <!-- Set viewport for easier viewing on multiple devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Latest compiled CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Jquery Lib -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Javascript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                background-color: black;
+            }
+            .bg-1{
+                
+                color: skyblue;
+                background: url("https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+                
+                }
+            .bg-2{
+                background: url("https://i.ytimg.com/vi/lugard7P0nw/maxresdefault.jpg") no-repeat ;
+                height: 500%;
+                
+                color: aliceblue;
+                filter: grayscale(100%);
+                
+            }
+            .bg-11{
+                background-color: #093145;
+                padding-top: 75px;
+                padding-bottom: 325px;
+            }
+            #info-text{
+                padding-top: 50px;
+                font-size: 50;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!-- Add a navigation panel here -->
+        <div class="jumbotron text-center bg-1" id="home">
+            <h1>Welcome</h1>
+                <p style="padding-bottom: 100px"> This is a contiainter</p>
+        </div>
+        <nav class="navbar navbar-inverse text-center">
+            <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                
+                <li class="active"><a href="#home"> Home</a></li>
+                <li><a href="#education"> Education</a></li>
+                <li><a href="#resume"> Resume</a></li>
+                <li><a href="#projects"> Projects</a></li>
+                <li><a href="#contact"> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid bg-11 text-center" >
+            <a href="https://www.linkedin.com/in/ralph-babunga/"  target="_blank" title="Facebook"><img src="https://i.gyazo.com/668790a93221730e2225528a1c015f75.png" class="img-circle" width="250" height="250"></a>
+            
+            <div id="info-text" style="color:white">
+            <p>Born and raised on the other side of the world, I am a self driven and a hard working student.<br> Having lived in several countries over my short life I have been exposed to a multitude of cultures, people, and countries. 
+            </p>
+            </div>
+        </div>
+        
+        <div class="container-fluid bg-2 text-center" id="education">
+            <h2 style="text-align: center">Education</h2>
+            <p style="padding-bottom: 400px">Test Test</p>
+            
+        </div>
+        
+        <div class="container-fluid bg-3 text-center" id="contact">
+        
+        
+        </div>
+    </body>
+</html>
